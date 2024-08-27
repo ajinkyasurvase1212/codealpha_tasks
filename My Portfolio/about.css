@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1f242d;
+}
+
+.about h1{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 45px;
+}
+.about p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;line-height: 1.6em;
+    
+}

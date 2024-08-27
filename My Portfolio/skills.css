@@ -1,0 +1,111 @@
+.skills {
+    background: radial-gradient(#e1efff, white);
+    padding: 0px 0;
+  }
+  .title{
+    text-align: center;
+  }
+  .skills .title::after {
+    content: " — What I Know ?";
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #1e3551;
+    margin-top: 10px;
+  }
+  .skills .skills-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .skills .skills-content .column {
+    width: calc(50% - 30px);
+    margin-bottom: 20px;
+  }
+  .skills .skills-content .left .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .skills .skills-content .left p,
+  .skills .skills-content .left ul {
+    text-align: justify;
+  }
+  .skills .skills-content .left a {
+    display: inline-block;
+    background: #1e3551;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #1e3551;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  .skills .skills-content .left a:hover {
+    color: #1e3551;
+    background: none;
+    animation: pulsate 1s ease-in-out;
+  }
+  .skills .skills-content ul {
+    padding-left: 20px;
+  }
+  .intern,
+  .project {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .intern::before,
+  .project::before {
+    content: "✪ ";
+    color: #1e3551;
+  }
+  .skills .skills-content .right .bars {
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  .skills .skills-content .right .info {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .skills .skills-content .right span {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .skills .skills-content .right .line {
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+  }
+  .skills .skills-content .right .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #1e3551;
+  }
+  .skills-content .right .python::before {
+    width: 90%;
+  }
+  .skills-content .right .html::before {
+    width: 80%;
+  }
+  .skills-content .right .css::before {
+    width: 60%;
+  }
+  .skills-content .right .js::before {
+    width: 40%;
+  }
+  .skills-content .right .bootstraps::before {
+    width: 60%;
+  }
+  .skills-content .right .django::before {
+    width: 70%;
+  }
+  
